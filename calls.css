@@ -1,0 +1,160 @@
+body{     
+background-color: #0B141A;
+    }
+    
+ .heading  {
+        display:flex;
+    gap:10px;
+    align-item: flex-start;
+    
+    }
+    .callhead{
+        color: #ffffff;
+        font-family: Roboto;
+        
+    }
+    .headleft{
+        width:100px;
+        height: 60px;
+        padding-top:10px;
+        padding-left:140px;
+    }
+    
+    .heading2 {
+        display:flex;
+    gap:10px;
+    align-item: flex-start;
+    color: #ffffff;
+    style:bold;
+    font-family: Roboto;
+    margin-top:-5px;
+    }
+    
+    .favourite {
+        font-size:20px;
+        color: #ffffff;
+    }
+    
+    .More{
+        background:#434349c0;
+        margin-left:170px;
+        height: 25px;
+    border-radius: 15px;
+    width:60px;
+    padding-left:11px;
+    padding-top:7px;
+    }
+    .profile{
+    width:50px;
+    height: 40px;
+    border-radius :200px;
+    }
+    .name{
+   margin-top: 8px;
+        color: #ffffff;
+        margin-left:5px;
+        font-family: Roboto;
+    }
+    .group{
+        display:flex;
+    gap:10px;
+    align-item: flex-start;
+    margin-top: 7px;
+    
+    
+    }
+    
+    .groupinfo{
+        width:100px;
+        height: 50px;
+        padding-top: 0px;
+        padding-left:140px;
+    }
+   
+   .rename{
+   margin-top: 0;
+        color: #ffffff;
+        margin-left:10px;
+        font-family: Roboto;
+        Font-size: 20px;
+        white-space:nowrap;
+    }
+    .time{
+   margin-top:-16px;
+         color:#6b7575a9;
+        margin-left:15px;
+        font-family: Roboto;
+        font-size: 14px;
+        
+        white-space:nowrap;
+    }
+    
+    .textbox {
+        display: flex;
+        flex-direction:column;
+        
+        font-family: Roboto;
+        }
+        
+        .callicon{
+        width:100px;
+        height: 50px;
+        padding-top: 0px;
+        padding-left:120px;
+    }
+    
+    .callicon2 {
+        width:100px;
+        height: 50px;
+        padding-top: 0px;
+        padding-left:105px;
+    }
+   
+   .callicon3{
+        width:100px;
+        height: 50px;
+        padding-top: 0px;
+        padding-left:100px
+    }
+    
+    .callicon4{
+        width:100px;
+        height: 50px;
+        padding-top: 0px;
+        padding-left:100px;
+    }
+    
+    .bottom {
+      width:310px;
+      height:60px:
+      position: absolute;
+  
+  z-index: 2;          
+      }
+      
+      
+      .calllog{
+          background: #eaffff;
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          margin-left:0;
+          padding-top:-20px;
+          position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 1;           
+  font-size: 18px;
+  opacity:0;
+          
+      }
+      
+      .calllink {
+          position:relative;
+      }.overlay-box {
+  
+.icon {
+  position: absolute;
+  
+  z-index: 2;           /* image on top */
+}
